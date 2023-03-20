@@ -82,7 +82,8 @@ useEffect(() => {
 
       </div>
       <div className="h-full w-full flex flex-col justify-center items-center p-5">
-        <h1 className={`text-white p-5 text-4xl font-bold transition-all duration-500 ease-out ${isHovered ? 'opacity-70' : 'opacity-100'}`}>البحث في الصور الموجودة</h1>
+      <h1 className={`text-white text-4xl p-5 font-bold transition-all duration-500 ease-out ${isHovered ? 'opacity-70 ' : 'opacity-100 hidden '}`}>SEARCH IMAGES BY AI</h1>
+        <h1 className={`text-white p-5 text-4xl font-bold transition-all duration-500 ease-out ${isHovered ? 'opacity-70 hidden' : 'opacity-100'}`}>البحث في الصور الموجودة</h1>
       </div>
     </div>
 
@@ -99,7 +100,9 @@ useEffect(() => {
         onMouseLeave={() => setIsHovered2(false)}
       ></div>
       <div className="h-full w-full flex flex-col justify-center items-center p-5">
-        <h1 className={`text-white text-4xl p-5 font-bold transition-all duration-500 ease-out ${isHovered2 ? 'opacity-70' : 'opacity-100'}`}>انشاء صور بالذكاء الاصطناعي</h1>
+        <h1 className={`text-white text-4xl p-5 font-bold transition-all duration-500 ease-out ${isHovered2 ? 'opacity-70 hidden' : 'opacity-100'}`}>انشاء صور بالذكاء الاصطناعي</h1>
+        <h1 className={`text-white text-4xl p-5 font-bold transition-all duration-500 ease-out ${isHovered2 ? 'opacity-70 ' : 'opacity-100 hidden '}`}>CREATE IMAGES BY AI</h1>
+
       </div>
     </div>
     </Link>
